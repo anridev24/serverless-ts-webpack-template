@@ -11,6 +11,7 @@
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
     "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
     "eslint": "^8.22.0",
     "husky-hg": "^0.15.4",
     "prettier": "^2.7.1",
@@ -24,6 +25,7 @@
     "webpack": "^5.74.0"
   },
   "dependencies": {
-    "serverless": "^3.22.0"
+    "serverless": "^3.22.0",
+    "signale": "^1.4.0"
   }
 }
