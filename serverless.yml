@@ -1,5 +1,5 @@
-service: serverless-ts-webpack-template
-frameworkVersion: '3'
+service: pk-checker
+frameworkVersion: "3"
 provider:
   name: aws
   runtime: nodejs14.x
@@ -7,11 +7,11 @@ provider:
   timeout: 30
 
 functions:
-  hello:
+  main:
     handler: src/main.start
     events:
       - http:
-          path: test
+          path: check
           method: get
 
 package:
@@ -23,9 +23,8 @@ plugins:
   - serverless-plugin-common-excludes
   - serverless-offline
 
-
 custom:
   webpack:
     webpackConfig: webpack.config.js
     includeModules: true
-    packager: 'npm'
+    packager: "npm"

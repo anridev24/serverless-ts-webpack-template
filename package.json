@@ -25,6 +25,7 @@
     "webpack": "^5.74.0"
   },
   "dependencies": {
+    "@directus/sdk": "^10.1.4",
     "serverless": "^3.22.0",
     "signale": "^1.4.0"
   }
