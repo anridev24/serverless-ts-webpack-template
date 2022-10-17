@@ -2,8 +2,7 @@ import "dotenv/config";
 import signale from "signale";
 
 const config = {
-  DIRECTUS_TOKEN: process.env.DIRECTUS_TOKEN || "",
-  DIRECTUS_URL: process.env.DIRECTUS_URL || "",
+  // SECRET_TOKEN: process.env.SECRET_TOKEN || "",
 };
 
 for (const key in config) {
