@@ -23,7 +23,6 @@ plugins:
   - serverless-plugin-common-excludes
   - serverless-offline
 
-
 custom:
   webpack:
     webpackConfig: webpack.config.js

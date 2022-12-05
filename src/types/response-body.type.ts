@@ -1,6 +1,6 @@
 interface ResponseBody {
-	message: string;
-	result?: any;
+	message: string
+	result?: any
 }
 
-export default ResponseBody;
+export default ResponseBody
